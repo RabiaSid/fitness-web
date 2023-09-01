@@ -8,3 +8,406 @@
 *{
 	box-sizing: border-box;
 }
+.navbar {
+	background-color: transparent;
+  }
+.navbar.colorChange {
+	background-color: #000;
+	/* opacity: 0.8; */
+  }
+  .Week_item{
+	padding: 25px 10px;
+	color: #2c234d;
+    font-family: "Teko",sans-serif;
+    font-size: 25px;
+	font-weight: 500;
+  }
+.customized-primary-btn {
+	width: 17rem;
+	height: 10vh;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	background: transparent;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	
+  }
+  
+  .primary-btn {
+	background: #FF1313;
+	border: none;
+	z-index: 1;
+	transition: all 0.2s ;
+  }
+  
+  .primary-btn:hover {
+	color: #fff;
+	background: #FF1313;
+  }
+  
+  .primary-btn:after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 100%;
+	top: 0;
+	left: 0; 
+	z-index: -1;
+	background-color: #c20505;
+	transition: width 0.2s ease; 
+  }
+  
+  .primary-btn:hover:after {
+	width: 100%;
+  }
+
+  .home-Sec-background {
+    height: 100vh;
+  }
+.banner-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+	height: 4em;
+  }
+  .banner-container2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+	min-height: 20em;
+	height:auto
+  }
+  .banner-container3 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+	height: 5em;
+  } 
+  .banner-paragraph {
+    position: absolute;
+    /* left: 50%;   */
+    top: 50%;
+    transform: translateY(-50%); 
+	 animation: slideIn 1s forwards;
+  }
+  .banner-paragraph2 {
+    position: absolute;
+    /* left: -100%;   */
+    /* top: 50%;
+    transform: translateY(-50%); */
+  	animation: slideIn 1s forwards;
+  }
+  .banner-paragraph3 {
+    position: absolute;
+    /* left: -100%;   */
+    top: 50%;
+    transform: translateY(-50%);
+  	animation: slideIn 1s forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+  .sidebar-first-item {
+	position: relative;
+  }
+  
+  .sidebar-first-item:before {
+	content: '';
+	position: absolute;
+	width: 95px;
+	height: 3px;
+	background: #fe4e37;
+	top: 50%;
+	left: 0%;
+  }
+
+
+.FixedBG1_img{
+	background-image:url(./assets/home_Sec_1.png) ;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;      
+}
+
+.FixedBG1_row_1{
+	height:auto ;
+}
+
+.FixedBG1_row_2{
+	height:auto ;
+}
+
+.FixedBG2_img{
+	background-image:url(./assets/home_Sec_3.png) ;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;      
+}
+
+.FixedBG2_row_1{
+	height:auto ;
+}
+
+.FixedBG2_row_2{
+	height:auto ;
+}
+
+.Servicecard_icon{
+	color: #000;
+	
+  }
+.Servicecard_div:hover .Servicecard_icon{
+	color: #FF1313
+  }
+
+.customized-flat-btn {
+	width: 100%;
+	height: 10vh;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	background: transparent;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	
+  }
+  
+ .flat-btn {
+	background: #fff;
+	border: none;
+	z-index: 1;
+	color: #fff;
+	transition: all 0.2s ;
+  }
+
+ .flat-btn {
+	background: #fff;
+	border: none;
+	z-index: 1;
+	color: #fff;
+	transition: all 0.2s ;
+  }
+  .Servicecard_div:hover .flat-btn:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	bottom: 0; 
+	right: 0;
+	z-index: -1;
+	background-color: #c20505;
+	transition: height 0.2s ease; 
+  }
+  .Servicecard_div:hover .flat-btn:hover:after  {
+	height: 0%;
+  } 
+
+  .Servicecard_div2 {
+	height: 80vh;
+	min-height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+  }
+  .customized-flat-btn2 {
+	width: 100%;
+	height: 20vh;
+	font-size: 1.8rem;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	background: transparent;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	
+  }
+  
+ .flat-btn2 {
+	background: transparent;
+	border: none;
+	z-index: 1;
+	transition: all 0.4s ;
+  }
+
+  .Servicecard_div2:hover .flat-btn2:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	bottom: 0; 
+	right: 0;
+	z-index: -1;
+	background-color: #c20505;
+	transition: height 0.4s ease-in; 
+  }
+  .Servicecard_div2:hover .flat-btn2:hover:after  {
+	height: 0%;
+  } 
+  .flat-btn2_text {
+	position: relative;
+  }
+  
+  .flat-btn2_text:before {
+	content: '';
+	position: absolute;
+	width: 45px;
+	height: 2px;
+	background: #fe4e37;
+	top: 50%;
+	left: 0%;
+  }
+  .flat-btn2_Greytext{
+color:#212025;
+font-family: 'Teko', sans-serif;
+	font-size: 20;
+	font-weight: 500;
+  }
+  .flat_btn2_textWhite{
+	font-family: 'Teko', sans-serif;
+	color:#ffffff;
+	font-size: 20;
+	font-weight: 500;
+  }
+  
+  .flat_btn2_icon{
+	color: #ffffff;
+	
+  }
+
+  .Servicecard_div2:hover .flat-btn2_text:before {
+	background: #ffffff;
+  }
+
+  .Servicecard_div2:hover .flat-btn2_Greytext {
+	color: #ffffff;
+  }
+
+  .container {
+	position: relative;
+	width: 45%;
+  }
+  
+  .image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #080808;
+	opacity: 0.9;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+	width: 100%;
+  }
+
+  .icon_div{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .icon_item_div{
+	border: 2px solid #FF1313;
+	background-color: #FF1313;
+	color: #fff;
+	border-radius: 30PX;
+	height: 8vh;
+	width: 4vw;
+  }
+
+ .icon_item_div:hover {
+	border: 2px solid #fff;
+	background-color: #fff;
+	color: #000;
+  }
+
+ 
+  
+  .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+  }
+  .SheduleCard_div{
+background: #f7fdff;
+  }
+  .SheduleCard_div:hover{
+background: #FF1313;
+  }
+  .SheduleCard_Time{
+background: #000;
+color: #fff;
+}
+.SheduleCard_div:hover .SheduleCard_Time{
+	background: #fff;
+	color: #000;
+}
+.SheduleCard_div:hover  .BlueText{
+	color: #fff;
+}
+.SheduleCard_div:hover  .BlueText2{
+	color: #fff;
+}
+.SheduleCard_div:hover  .GreyText{
+	color: #fff;
+}
+  .DarkText3{
+    font-weight: 500;
+    font-size: 24;
+    font-family: 'Teko',sans-serif
+  }
+  .BlueText{
+	color: #2c234d;
+    font-size: 30px;
+	font-family: "Teko",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .BlueText2{
+	color: #2c234d;
+    font-size: 16px;
+	font-family: "Barlow",sans-serif;
+  }
+  .GreyText{
+	color: #717b9b;
+    font-size: 15px;
+	font-family: "Barlow",sans-serif;
+	font-weight: 400;
+  }
+ 
