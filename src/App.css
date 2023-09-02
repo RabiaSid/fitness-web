@@ -23,6 +23,7 @@
 	font-weight: 500;
   }
 .customized-primary-btn {
+	color: #fff;
 	width: 17rem;
 	height: 10vh;
 	font-size: 1.8rem;
@@ -409,5 +410,38 @@ color: #fff;
     font-size: 15px;
 	font-family: "Barlow",sans-serif;
 	font-weight: 400;
+  }
+  .Footer_heading{
+	color: #fff;
+    font-family: "Teko",sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+	margin-top: 0px;
+    font-style: normal;
+  }
+  .Footer_text{
+	color: #c4c4c4;
+	letter-spacing: 0.1rem;
+	/* line-height: 2rem; */
+    font-weight: 300;
+    font-size: 16px;
+    
+  }
+  .Secondery_paragraph{
+	color: #c4c4c4;
+	letter-spacing: 0.1rem;
+	/* line-height: 2rem; */
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .social_icon{
+	color: #c4c4c4;
+	padding-right: 7px;
+  }
+  .Secondery_paragraph_Top{
+	border-top: 1px solid;
+	border-top-color: #c4c4c4;
   }
  

@@ -19,7 +19,7 @@ export default function HomeSectionSix() {
           </p>
         </div>
         <div className="col-4 col-md-6 col-lg-3 text-end">
-          <PrimaryButton />
+          <PrimaryButton title="MORE SERVICES"/>
         </div>
       </div>
       <div className="row justify-content-center align-items-center m-0 p-0 py-5 px-5 mb-5">
@@ -46,7 +46,7 @@ export default function HomeSectionSix() {
           </p>
         </div>
         <div className="col-4 col-md-6 col-lg-3 text-end py-5">
-          <PrimaryButton />
+          <PrimaryButton title="MORE SERVICES"/>
         </div>
       </div>
     </>

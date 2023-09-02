@@ -7,9 +7,22 @@ export const Styles = {
   headerItem: {
     color: color.white,
     fontWeight: "300",
-    fontSize: "1.8rem",
+    fontSize: "1.4rem",
     fontFamily: `Teko,sans-serif`,
     letterSpacing: "0.1rem",
+  },
+  pagesBanner:{
+    background:color.black,
+    height:'65vh',
+    maxHeight:'auto',
+  },
+  pagesBannerText:{
+    color: color.white,
+    fontSize: 50,
+    fontFamily: `Teko,sans-serif`,
+    fontWeight: 800,
+    letterSpacing: "0.05em",
+    
   },
   pinkText: {
     color: color.pink,

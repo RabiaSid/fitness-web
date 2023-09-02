@@ -2,13 +2,14 @@ import { ReactNode } from "react";
 import { Layout } from "antd";
 import AppHeader from "../components/header";
 import AppFooter from "../components/footer";
+import { FooterSectionImage } from "../assets";
 
 const { Header, Footer, Content } = Layout;
 
 export default function AppLayout({ children }: { children: ReactNode }) {
-  return  <>
-      <Layout style={{
-      }}>
+  return (
+    <>
+      <Layout style={{}}>
         <Header
           style={{
             margin: 0,
@@ -38,12 +39,16 @@ export default function AppLayout({ children }: { children: ReactNode }) {
             margin: 0,
             padding: 0,
             width: "auto",
-            height: "auto",
-            backgroundColor: "white",
+            background: `url(${FooterSectionImage})`,
+            backgroundAttachment: " fixed",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
           }}
         >
           <AppFooter />
         </Footer>
       </Layout>
     </>
+  );
 }

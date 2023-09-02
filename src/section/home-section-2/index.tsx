@@ -33,7 +33,7 @@ export default function HomeSectionTwo() {
           anipurpose layouts. You can select your favorite layouts.
         </p>
         <div className="py-2">
-          <PrimaryButton />
+          <PrimaryButton title="BECOME A MEMBER "/>
         </div>
       </div>
     </div>

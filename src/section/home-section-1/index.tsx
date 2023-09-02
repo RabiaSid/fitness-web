@@ -25,7 +25,7 @@ export default function HomeSectionOne() {
           </div>
           <div className="banner-container3   ">
             <div className="banner-paragraph3 ">
-              <PrimaryButton />
+              <PrimaryButton title="BECOME A MEMBER "/>
             </div>
           </div>
         </div>

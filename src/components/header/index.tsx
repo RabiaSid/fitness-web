@@ -6,8 +6,11 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import PrimaryButton from "../button/primary-button";
 import { AppLogo } from "../../assets";
 import { Styles } from "../../style";
+import { useNavigate } from "react-router-dom";
 
 export default function AppHeader() {
+
+  const navigate = useNavigate()
 
   const [colorChange, setColorchange] = useState(false);
 
@@ -49,15 +52,15 @@ export default function AppHeader() {
         <Container fluid >
           <Navbar.Brand href="#home" className="col "><img src={AppLogo} height='55rem' width='auto'/></Navbar.Brand>
           <Nav className="col-8 justify-content-between align-items-center ">
-            <Nav.Link className="d-none d-md-block" href="#home" style={Styles.headerItem} >Home</Nav.Link>
-            <Nav.Link className="d-none d-md-block" href="#features" style={Styles.headerItem} >Features</Nav.Link>
-            <Nav.Link className="d-none d-md-block" href="#pricing" style={Styles.headerItem} >Pricing</Nav.Link>
-            <Nav.Link className="d-none d-md-block" href="#home" style={Styles.headerItem} >Home</Nav.Link>
-            <Nav.Link className="d-none d-md-block" href="#features" style={Styles.headerItem} >Features</Nav.Link>
-            <Nav.Link className="d-none d-md-block" href="#pricing" style={Styles.headerItem} >Pricing</Nav.Link>
-            <Nav.Link className="d-none d-md-block" href="#pricing" style={Styles.headerItem} >Pricing</Nav.Link>
-            <Nav.Link className="d-none d-md-block" href="#pricing" style={Styles.headerItem} >
-            <PrimaryButton ></PrimaryButton>
+            <Nav.Link className="d-none d-md-block"  onClick={() => navigate('/')} style={Styles.headerItem} >Home</Nav.Link>
+            <Nav.Link className="d-none d-md-block"  onClick={() => navigate('/about')} style={Styles.headerItem} >About</Nav.Link>
+            <Nav.Link className="d-none d-md-block"  onClick={() => navigate('/service')} style={Styles.headerItem} >Service</Nav.Link>
+            <Nav.Link className="d-none d-md-block"  onClick={() => navigate('/schedule')} style={Styles.headerItem} >Schedule</Nav.Link>
+            <Nav.Link className="d-none d-md-block"  onClick={() => navigate('/gallery')} style={Styles.headerItem} >Gallery</Nav.Link>
+            <Nav.Link className="d-none d-md-block"  onClick={() => navigate('/blog')} style={Styles.headerItem} >Blog</Nav.Link>
+            <Nav.Link className="d-none d-md-block"  onClick={() => navigate('/contact')} style={Styles.headerItem} >Contact</Nav.Link>
+            <Nav.Link className="d-none d-md-block"  onClick={() => navigate('/become-a-member')} style={Styles.headerItem} >
+            <PrimaryButton title="BECOME A MEMBER" onClick={() => navigate('/become-a-member')} ></PrimaryButton>
             </Nav.Link>
           </Nav>
         </Container>
