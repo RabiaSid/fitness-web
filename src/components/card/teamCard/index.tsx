@@ -13,7 +13,11 @@ export default function TeamCard(props: TeamCardProps) {
   return (
     <div
       className="col-11 col-xs-8 col-sm-7 col-md-5 col-lg-3 pt-5 my-2 Servicecard_div2 d-flex flex-column justify-content-end"
-      style={{ background: `url(${image})` }}
+      style={{ background: `url(${image})`,
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      // backgroundSize: "cover",
+     }}
       key={id}
     >
       <div className="row">

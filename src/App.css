@@ -444,4 +444,10 @@ color: #fff;
 	border-top: 1px solid;
 	border-top-color: #c4c4c4;
   }
+ .select_form {
+	border:none
+ }
+ a {
+	border: none;
+ }
  

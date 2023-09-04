@@ -30,7 +30,7 @@ export default function AppLayout({ children }: { children: ReactNode }) {
             backgroundColor: "white",
           }}
         >
-          {/* <PagesMenu /> */}
+          {/* <PagesMenu /> */} 
           {children}
         </Content>
 

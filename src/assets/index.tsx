@@ -12,6 +12,7 @@ import Team2 from "./team2.png.webp"
 import Team3 from "./team3.png.webp"
 import HomeSectionSixImage from "./home_Sec_6.png";
 import FooterSectionImage from "./footer_sectionImage.webp"
+import HomeSecEightImage from "./contact_form.png.webp"
 
 export { 
     AppLogo,
@@ -27,5 +28,6 @@ export {
     Team2,
     Team3,
     HomeSectionSixImage,
-    FooterSectionImage
+    FooterSectionImage,
+    HomeSecEightImage
  };

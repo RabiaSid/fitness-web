@@ -1,4 +1,5 @@
 import Layout from "../../layout";
+import HomeSectionEight from "../../section/home-section-8";
 import { Styles } from "../../style";
 
 export default function Contact() {
@@ -9,6 +10,9 @@ export default function Contact() {
           <div className="col-11 col-md-6 col-lg-4 text-center pb-5 pb-md-0 " style={Styles.pagesBannerText}>
           Contact
           </div>
+        </div>
+        <div className="row m-0 p-0 py-5">
+        <HomeSectionEight />
         </div>
       </Layout>
     </>

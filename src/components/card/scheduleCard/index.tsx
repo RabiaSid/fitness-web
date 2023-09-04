@@ -4,7 +4,7 @@ import { Styles } from '../../../style'
 
 export default function ScheduleCard() {
   return (
-    <div className='SheduleCard_div col-2 mx-1 p-5 justify-content-center' >
+    <div className='SheduleCard_div col-10 col-sm-6 col-md-4 col-xl-2 mx-1 p-5 justify-content-center' >
         <div className='SheduleCard_Time p-3 text-center DarkText3' >
         6am - 8am
         </div>

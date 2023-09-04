@@ -10,6 +10,7 @@ export const Styles = {
     fontSize: "1.4rem",
     fontFamily: `Teko,sans-serif`,
     letterSpacing: "0.1rem",
+    textDecoration: 'none'
   },
   pagesBanner:{
     background:color.black,
