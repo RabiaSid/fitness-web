@@ -10,7 +10,7 @@ import About from "../pages/about"
 
 
 export default function AppRoutes() {
-  return (
+  return <>
     <Router>
         <Routes>
         <Route path="/" element={<Home />}/>
@@ -23,5 +23,5 @@ export default function AppRoutes() {
         <Route path="about" element={<About />}/>
         </Routes>
     </Router>
-  )
+    </>
 }

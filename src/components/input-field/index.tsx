@@ -22,7 +22,7 @@ const customTheme = (outerTheme: Theme) =>
           root: {
             "--TextField-brandBorderColor": "#E0E3E7",
             "--TextField-brandBorderHoverColor": "#E0E3E7",
-            // "--TextField-brandBorderFocusedColor": "#fff",
+            "--TextField-brandBorderFocusedColor": "#fff",
             "& label.Mui-focused": {
               color: "#616161",
               fontSize: "15px",
@@ -56,8 +56,7 @@ export default function InputField(props: InputfieldProps) {
   const { placeholder, onChange } = props;
   const outerTheme = useTheme();
 
-  return (
-    <ThemeProvider theme={customTheme(outerTheme)}>
+  return <>  <ThemeProvider theme={customTheme(outerTheme)}>
       <TextField
         placeholder={placeholder}
         label=""
@@ -67,7 +66,7 @@ export default function InputField(props: InputfieldProps) {
         focused
       />
     </ThemeProvider>
-  );
+    </>
 }
 // import { TextField } from "@mui/material";
 

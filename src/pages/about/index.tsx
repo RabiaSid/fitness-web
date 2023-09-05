@@ -6,8 +6,7 @@ import HomeSectionSix from "../../section/home-section-6";
 import { Styles } from "../../style";
 
 export default function About() {
-  return (
-    <>
+  return  <>
       <Layout>
         <div
           className="row m-0 p-0 justify-content-center pb-5 pb-md-0 align-items-end align-items-md-center"
@@ -34,5 +33,4 @@ export default function About() {
         </div>
       </Layout>
     </>
-  );
 }

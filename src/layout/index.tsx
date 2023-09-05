@@ -7,8 +7,7 @@ import { FooterSectionImage } from "../assets";
 const { Header, Footer, Content } = Layout;
 
 export default function AppLayout({ children }: { children: ReactNode }) {
-  return (
-    <>
+  return <>
       <Layout style={{}}>
         <Header
           style={{
@@ -30,7 +29,7 @@ export default function AppLayout({ children }: { children: ReactNode }) {
             backgroundColor: "white",
           }}
         >
-          {/* <PagesMenu /> */} 
+          {/* <PagesMenu /> */}
           {children}
         </Content>
 
@@ -50,5 +49,4 @@ export default function AppLayout({ children }: { children: ReactNode }) {
         </Footer>
       </Layout>
     </>
-  );
 }

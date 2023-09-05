@@ -37,8 +37,7 @@ export default function InputSelect() {
     setAge(event.target.value);
   };
 
-  return (
-    <div>
+  return  <>
       <Select
         labelId="demo-customized-select-label"
         id="demo-customized-select"
@@ -57,6 +56,5 @@ export default function InputSelect() {
         <MenuItem value={40}>Shakil Miya</MenuItem>
         <MenuItem value={50}>Tamim Sharker</MenuItem>
       </Select>
-    </div>
-  );
+    </>
 }

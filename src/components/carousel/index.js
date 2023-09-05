@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
-import { HiOutlineArrowNarrowLeft, HiOutlineArrowNarrowRight } from "react-icons/hi";
+import {
+  HiOutlineArrowNarrowLeft,
+  HiOutlineArrowNarrowRight,
+} from "react-icons/hi";
 import { Styles } from "../../style";
 import ReviewCard from "../card/ReviewCard";
 
@@ -67,7 +70,7 @@ function ReviewCarousel() {
     };
   }, [currentIndex]);
 
-  return (
+  return <>
     <div className="row justify-content-center m-0">
       <div className="col-12">
         <Slider ref={setSliderRef} {...sliderSettings}>
@@ -81,17 +84,23 @@ function ReviewCarousel() {
           onClick={() => sliderRef?.slickPrev()}
           style={Styles.slider_arrow_Prev}
         >
-          <HiOutlineArrowNarrowLeft size={35} style={Styles.slider_arrow_Text} />
+          <HiOutlineArrowNarrowLeft
+            size={35}
+            style={Styles.slider_arrow_Text}
+          />
         </button>
         <button
           onClick={() => sliderRef?.slickNext()}
           style={Styles.slider_arrow_Back}
         >
-          <HiOutlineArrowNarrowRight size={35}  style={Styles.slider_arrow_Text} />
+          <HiOutlineArrowNarrowRight
+            size={35}
+            style={Styles.slider_arrow_Text}
+          />
         </button>
       </div>
     </div>
-  );
+    </>
 }
 
 export default ReviewCarousel;

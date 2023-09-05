@@ -26,30 +26,14 @@ export default function InputTextarea() {
 	  font-weight: 400;
 
 }
-    
-    &:hover {
-        background: transparent;
-        box-shadow: none;
-    }
-  
-    &:focus {
-      // border: 2px solid transparent;
-      // box-shadow: none;
-      // border-bottom-color: transparent
-    }
-  
-    // firefox
-    &:focus-visible {
-      outline: 0;
-    }
   `
   );
 
-  return (
-    <StyledTextarea
-      maxRows={5}
-      aria-label="maximum height"
-      placeholder="Message"
-    />
-  );
+  return    <>
+      <StyledTextarea
+        maxRows={5}
+        aria-label="maximum height"
+        placeholder="Message"
+      />
+    </>
 }

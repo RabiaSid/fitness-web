@@ -11,7 +11,8 @@ type ServiceCardProps = {
 export default function ServiceCard(props: ServiceCardProps) {
   const { id, icon, title, desc } = props;
   const IconComponent = icon;
-  return  <div
+  return <>
+    <div
       className="col-11 col-md-5 col-lg-3 pt-5 my-2 Servicecard_div "
       style={{ backgroundColor: color.white }}
       key={id}
@@ -37,4 +38,5 @@ export default function ServiceCard(props: ServiceCardProps) {
       <button className="customized-flat-btn flat-btn">Read More</button>
       </div>
     </div>
+    </>
 }

@@ -1,5 +1,3 @@
 export default function AnimeButton() {
-  return (
-    <div>AnimeButton</div>
-  )
+  return  <> <div>AnimeButton</div>  </>
 }

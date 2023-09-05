@@ -11,7 +11,7 @@ import { Styles } from "../../style";
 import GalleryCard from "../../components/card/galleryCard";
 
 export default function HomeSectionFive() {
-  return (
+  return <>
     <div className="row p-0 m-0 ">
       <div className="col-12 col-lg-6 ">
         <GalleryCard image={GalleryImage1} />
@@ -35,5 +35,5 @@ export default function HomeSectionFive() {
         </div>
       </div>
     </div>
-  );
+    </>
 }

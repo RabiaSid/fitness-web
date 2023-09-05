@@ -3,8 +3,7 @@ import color from "../../constant";
 import { Styles } from "../../style";
 
 export default function HomeSectionSeven() {
-  return (
-    <>
+  return <>
       <div className="row p-0 m-0 justify-content-center py-5 my-5">
         <div className="col-10 col-md-9  col-lg-8 col-xl-5 text-center ">
           <p className="py-2">
@@ -37,5 +36,4 @@ export default function HomeSectionSeven() {
         </div>
       </div>
     </>
-  );
 }

@@ -11,10 +11,14 @@
 .navbar {
 	background-color: transparent;
   }
+
 .navbar.colorChange {
 	background-color: #000;
 	/* opacity: 0.8; */
   }
+ .headerItem:hover {
+  color: #fe4e37 !important; 
+}
   .Week_item{
 	padding: 25px 10px;
 	color: #2c234d;
@@ -90,21 +94,16 @@
   } 
   .banner-paragraph {
     position: absolute;
-    /* left: 50%;   */
     top: 50%;
     transform: translateY(-50%); 
 	 animation: slideIn 1s forwards;
   }
   .banner-paragraph2 {
     position: absolute;
-    /* left: -100%;   */
-    /* top: 50%;
-    transform: translateY(-50%); */
   	animation: slideIn 1s forwards;
   }
   .banner-paragraph3 {
     position: absolute;
-    /* left: -100%;   */
     top: 50%;
     transform: translateY(-50%);
   	animation: slideIn 1s forwards;

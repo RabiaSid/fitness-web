@@ -6,8 +6,7 @@ import { AppLogo } from "../../assets";
 // import EmailInput from "../InpuField/emailInput";
 
 export default function AppFooter() {
-  return (
-    <>
+  return  <>
       <div className="container-fluid pt-5">
         {/* middle section */}
         <div className="row d-flex justify-content-evenly align-items-start py-5 px-4">
@@ -92,5 +91,4 @@ export default function AppFooter() {
         </div>
       </div>
     </>
-  );
 }
