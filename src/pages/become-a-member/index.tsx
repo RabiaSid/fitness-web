@@ -1,4 +1,5 @@
 import Layout from "../../layout";
+import HomeSectionEight from "../../section/home-section-8";
 import { Styles } from "../../style";
 
 export default function BecomeMember() {
@@ -14,6 +15,9 @@ export default function BecomeMember() {
           >
             New Member
           </div>
+        </div>
+        <div className="row m-0 p-0 py-5">
+        <HomeSectionEight />
         </div>
       </Layout>
     </>

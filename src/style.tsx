@@ -12,6 +12,15 @@ export const Styles = {
     letterSpacing: "0.1rem",
     textDecoration: 'none'
   },
+  headerItem2: {
+    color: color.white,
+    fontWeight: "300",
+    fontSize: "1.4rem",
+    fontFamily: `Teko,sans-serif`,
+    height:'8vh',
+    letterSpacing: "0.1rem",
+    textDecoration: 'none',
+  },
   pagesBanner:{
     background:color.black,
     height:'65vh',
@@ -98,6 +107,21 @@ export const Styles = {
     fontFamily: `Teko,sans-serif`,
     fontWeight: 500,
     lineHeight: "30px",
+  },
+ blackText: {
+    color: color.black,
+    fontSize: 24,
+    fontFamily: `Teko,sans-serif`,
+    fontWeight: 300,
+    letterSpacing: "0.05em",
+  },
+  blackHeading1: {
+    color: color.black,
+    fontSize: 30,
+    fontFamily: `Teko,sans-serif`,
+    fontWeight: 600,
+    letterSpacing: "0.05em",
+    fontStyle: "normal",
   },
  
   GreyText: {

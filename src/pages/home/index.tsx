@@ -7,6 +7,7 @@ import HomeSectionFive from "../../section/home-section-5";
 import HomeSectionSix from "../../section/home-section-6";
 import HomeSectionSeven from "../../section/home-section-7";
 import HomeSectionEight from "../../section/home-section-8";
+import HomeSectionNine from "../../section/home-section-9";
 
 export default function Home() {
   return <>
@@ -35,6 +36,7 @@ export default function Home() {
           <HomeSectionSix />
           <HomeSectionSeven />
           <HomeSectionEight />
+          <HomeSectionNine />
       </Layout>
     </>
 }

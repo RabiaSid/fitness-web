@@ -1,3 +1,8 @@
-export default function FlatButton() {
-  return <><button className="customized-flat-btn flat-btn">Read More</button> </>
+type FlatButtonProps = {
+  title : string
+}
+
+export default function FlatButton(props: FlatButtonProps ) {
+  const {title} = props
+  return <><button className="flat-button w-100">{title}</button> </>
 }

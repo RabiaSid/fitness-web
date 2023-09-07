@@ -30,7 +30,7 @@
 	color: #fff;
 	width: 17rem;
 	height: 10vh;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	letter-spacing: 0.1rem;
 	font-family: 'Teko', sans-serif;
 	font-weight: 300;
@@ -132,6 +132,19 @@
 	left: 0%;
   }
 
+   .sidebar-first-item2 {
+	position: relative;  
+  }
+  
+  .sidebar-first-item2:before {
+	content: '';
+	position: absolute;
+	width: 95px;
+	height: 3px;
+	background: #000;
+	top: 50%;
+	left: 0%;
+  }
 
 .FixedBG1_img{
 	background-image:url(./assets/home_Sec_1.png) ;
@@ -449,4 +462,71 @@ color: #fff;
  a {
 	border: none;
  }
- 
+ .Zoom_img_div{
+	position: relative;
+	height:50vh;
+	width:100%;
+ }
+ .hoverGreyText{
+ color: #999999;
+ font-family: "Teko",sans-serif;
+    font-size: 18px;
+ }
+.hoverGreyText:hover{
+	color: #FF1313;
+	}
+.searchfield:focus{
+box-shadow: none !important;
+border:1px solid #999999 !important
+	}
+.flat-button{
+		color: #fe4e37;
+		height: 9vh;
+		border: 1px solid #fe4e37;
+		background: #fff;
+	font-size: 1.4rem;
+	letter-spacing: 0.1rem;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	
+	cursor: pointer;
+	}
+.flat-button:hover{
+		
+		cursor: pointer;
+		color: #fff;
+		height: 9vh;
+		background: #fe4e37;
+		border: 1px solid #fe4e37;
+		}
+.Hover-button{
+	color: #c4c4c4;
+	padding: 15;
+	border: 1px solid #c4c4c4;
+	background: #fff;
+font-size: 1.2rem;
+letter-spacing: 0.1rem;
+font-family: 'Teko', sans-serif;
+font-weight: 300;
+
+cursor: pointer;
+		}
+
+.Hover-button:hover{
+	cursor: pointer;
+	color: #fff;
+	background: #fe4e37;
+	border: 1px solid #fe4e37;
+				}
+.borderbottom_list{
+	border-bottom: 1px solid #c4c4c4;
+	padding-top: 35;
+	padding-bottom:20 ;
+		}
+.input-form:focus{
+	box-shadow: none !important;
+	border:1px solid #999999 !important
+		}
+		.Contact-icon{
+			color:#999999
+		}

@@ -3,6 +3,7 @@ import { Layout } from "antd";
 import AppHeader from "../components/header";
 import AppFooter from "../components/footer";
 import { FooterSectionImage } from "../assets";
+import BackToTop from "../components/back-to-top/index";
 
 const { Header, Footer, Content } = Layout;
 
@@ -20,6 +21,7 @@ export default function AppLayout({ children }: { children: ReactNode }) {
         >
           <AppHeader />
         </Header>
+        
         <Content
           style={{
             margin: 0,
@@ -32,7 +34,7 @@ export default function AppLayout({ children }: { children: ReactNode }) {
           {/* <PagesMenu /> */}
           {children}
         </Content>
-
+        <BackToTop />
         <Footer
           style={{
             margin: 0,
